@@ -1,19 +1,26 @@
-EntityDefinition {
+Example
+<code>
+EntityDefinition:{
 	"name":"Person",
 	"static":false,
-	schema {
+	"schema":{
 		"Name":{
 			type:"String",
 			readOnly:true,
 			mandatory:true
 		},
 		"Email":{
-
+			type:"String",
+			readOnly:false,
+			mandatory:true
+		},
+		"Nicknames":{
+			type:"String",
+			readOnly:false,
+			mandatory:false,
+			array:true
 		}
 	}
-
-
-
-
-
 }
+</code>
+
