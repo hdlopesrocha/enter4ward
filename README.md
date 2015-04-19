@@ -1,6 +1,6 @@
 Example
 <code>
-EntityDefinition:{
+Type:{
 	"name":"Person",
 	"static":false,
 	"schema":{
